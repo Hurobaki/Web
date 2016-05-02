@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border: 1px solid #000;
+}
+
+h1,
+td {
+    text-align: center;
+}
+
+fieldset {
+    width: 30%;
+    margin-right: auto;
+    margin-left: auto;
+}
