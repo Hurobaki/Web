@@ -235,18 +235,18 @@ $array3 = array("Distinction - grade points 13 - 15","Pass with Merit - grade po
      
                 <p>
                     <label>Number of inputs : </label><input type="text" name="number"/>
-                    <input type="submit" name="submit3"></input></p>
+                    <input type="submit" name="submit3"/></p>
 
                     <?php
 
                 
                         for ($i=1; $i < $number+1; $i++)
                         { 
-                            echo "<p><label>Input number $i : </label><input type='text' name = 'names[]' id = 'txt$i'></input></p>";
+                            echo "<p><label>Input number $i : </label><input type='text' name = 'names[]' id = 'txt$i'/></p>";
                         }
 
-                        echo "<input type = 'hidden' name = 'hide' value = '$number'></input>";
-                        echo "<input type = 'submit' name = 'send' value = 'Send'></input>";
+                        echo "<input type = 'hidden' name = 'hide' value = '$number'/>";
+                        echo "<input type = 'submit' name = 'send' value = 'Send'/>";
             
 
                         if(isset($_POST['send']))
